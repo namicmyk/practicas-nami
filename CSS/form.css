@@ -1,0 +1,72 @@
+/*DOCUMENTO CSS*/
+* { margin: 0px;
+    padding: 0px; }
+
+body { font-family: "Space Grotesk", sans-serif; 
+       background-color: #EBE8DB;
+       color: #3D0301;}
+
+h1 { text-align: center;
+    font-family: "Bagel Fat One", system-ui; 
+     font-weight: 100;
+     font-size: 80px; 
+     color: #EBE8DB; }
+
+h2 { font-family: "Space Grotesk", sans-serif;
+     font-size: 24px; 
+     padding-bottom: 8px;
+     color: #D76C82; }
+
+.cabecera { min-height: 80px;
+            border-bottom: 2px solid whitesmoke;
+            background-color: #B03052; }
+
+.cuerpo { width: 100%; 
+          text-align: justify; }
+
+.container p { font-size: 14px;
+               padding-bottom: 16px; }
+
+.container { width: 80%;
+             padding-top: 80px;
+             margin: 0px auto;
+             display: flex; }
+
+.items { width: 50%; 
+         padding: 16px;
+         box-sizing: border-box; }
+
+.items input, textarea { width: 100%;
+               padding: 8px;
+               margin-bottom: 8px;}
+
+textarea { max-width: 100%;
+           min-width: 100%;
+           min-height: 120px;
+           max-height: 120px;}
+
+.items a { display: block;
+           width: 120px;
+           padding: 8px;
+           border-radius: 8px;
+           background: rgb(176,48,82);
+           background: linear-gradient(180deg, rgba(176,48,82,1) 0%, rgba(235,232,219,1) 100%);
+           text-align: center;
+           color: #EBE8DB;
+           text-decoration: none;
+           font-weight: 900;}
+
+.items a:hover { background: rgb(215,108,130);
+                 background: linear-gradient(180deg, rgba(215,108,130,1) 0%, rgba(235,232,219,1) 100%);}
+.items a:active { background-color: #D76C82; }
+
+#btn { width: 120px; }
+
+
+
+
+/*font-family: "Alfa Slab One", serif;
+azul bajo: #5F99AE
+azul: #336D82
+morado: #693382 
+*/

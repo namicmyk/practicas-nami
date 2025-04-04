@@ -1,0 +1,81 @@
+/*DOCUMENTO CSS*/
+* { margin: 0;
+    padding: 0; }
+
+body { background-color: #9ACBD0; }
+
+@font-face {
+    font-family: 'CocogooseProTrial Semilight';
+    src: url('../FONTS/CocogooseProTrial-Semilight.woff2') format('woff2'),
+        url('../FONTS/CocogooseProTrial-Semilight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+.cabecera { font-family: 'CocogooseProTrial Semilight'; 
+            background-color: #48A6A7;
+            min-height: 1px;
+            width: 100%; }
+
+.bar { min-height: 1px; }
+
+.logo { color: #f2efe7;
+        font-size: 75px;
+        display: block; 
+        width: 60px;
+        padding: 8px 0px;
+        margin: auto; }
+
+.menu { display: flex; 
+        flex-flow: row wrap; }
+
+.items { width: 50%;
+         text-decoration: none;
+         text-align: center;
+         color: #48A6A7;
+         background-color: #f2efe7;
+         padding: 8px 0px; }
+
+.menu a:first-child { display: none; }
+
+/*BREAKPOINT 600PX*/
+
+@media only screen and (min-width: 600px) { 
+
+.logo { font-size: 4em; }
+
+.items { width: 25%; }
+
+}
+
+/*BREAKPOINT 992PX*/
+
+@media only screen and (min-width: 992px) { 
+
+    .menu a:first-child { display: block;
+                          border-top-left-radius: 20px;
+                          border-bottom-left-radius: 20px;}
+
+    .menu a:last-child { border-top-right-radius: 20px;
+                         border-bottom-right-radius: 20px;}
+
+    .items { width: 20%; }
+
+    .items:hover { background: #9ACBD0;
+                   color: #f2efe7}
+    .items:active { background-color: #f2efe7; }
+    
+    .menu { width: 80%;
+            margin: auto;
+            position: relative;
+            top: 15px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 2px #252525;}
+    
+    }
+/*  #48A6A7
+    #9ACBD0
+    #006A71
+    #F2EFE7
+*/

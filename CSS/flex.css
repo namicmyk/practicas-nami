@@ -1,0 +1,32 @@
+/*DOCUMENTO CSS*/
+* { margin: 0px;
+   padding: 0px; }
+
+body { background-color: #FBFFE4; }
+
+h3 { color: #FBFFE4;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #252525;
+    font-family: "Space Grotesk", sans-serif; 
+    padding-top: 80px;}
+    
+.container { width: 700px;
+             min-height: 1px;
+             margin: 32px auto; 
+             padding: 16px; 
+             display: flex;  
+             justify-content: space-between;
+             align-items: flex-start; }
+
+.items { width: 25%;
+         height: 130px;
+         text-align: center; 
+         margin-left: 16px; 
+         background-image: url(https://picsum.photos/id/4/400/300);
+         background-size: 100% 100%; }
+
+/*.tres { align-self: flex-end; }
+color: #3D8D7A; 
+background: #B3D8A8;
+font-family: "Kirang Haerang", system-ui;
+background: #A3D1C6;*/

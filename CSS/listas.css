@@ -1,0 +1,32 @@
+/*documento css*/
+* { margin: 0; }
+
+body { font-family: "Darumadrop One", serif; }
+/*Encabezados*/
+
+h1 { background-color:#d1dcb0; 
+    text-align: center; }
+
+h2 { padding: 8px  0px; 
+      color: red; }
+.display { color: #3d12e8; }
+
+
+/*LAYOUT*/
+.cabecera { padding: 16px 0px 16px 0px;
+            background-color:#cbc3a2; }
+
+.listas { margin: 16px auto; 
+          padding: 16px;
+          width: 70%;
+          background-color: aliceblue; }
+
+.contenido { width: 70%;
+              margin: 16px auto; }
+
+.contenido p { line-height: 140%; 
+              padding: 16px 0px; }
+
+.pie span { background-color: #d1dcb0; 
+            text-align: center; }
+

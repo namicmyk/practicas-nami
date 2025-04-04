@@ -1,0 +1,110 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+
+  /* Cabecera */
+  header {
+    background-color: #123458;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  header h1 {
+    font-family: "Boldonse", system-ui;
+    font-size: 36px;
+    margin: 0;
+  }
+
+  header h2 {
+    font-family: "Space Grotesk", sans-serif; 
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  main {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-family: "Space Grotesk", sans-serif; 
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #252525;
+  }
+
+  p {
+    font-family: "Space Grotesk", sans-serif; 
+    font-size: 18px;
+    color: #252525;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    margin: 15px 0;
+  }
+
+  ul li a {
+    font-family: "Space Grotesk", sans-serif; 
+    text-decoration: none;
+    background-color: #123458;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  ul li a:hover {
+    background-color: #2b7cd4;
+    transform: translateY(-4px);
+  }
+
+  footer {
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+    background-color: #123458;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .pie p {
+    color: #F1EFEC;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 28px;
+    }
+
+    header h2 {
+      font-size: 18px;
+    }
+
+    main {
+      padding: 30px 10px;
+    }
+
+    ul li a {
+      padding: 12px 20px;
+      font-size: 16px;
+    }
+  }

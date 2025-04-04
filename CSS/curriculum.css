@@ -1,0 +1,143 @@
+body {
+    font-family: "Space Grotesk", sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: justify;
+}
+
+h1 {
+    font-family: "Boldonse", system-ui;
+}
+
+li {
+    text-align: left;
+}
+
+header {
+    background: #123458;
+    color: #F1EFEC;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container div {
+    width: 48%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    max-width: 95%;
+    min-width: 95%;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    background: #123458;
+    color: #F1EFEC;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2b7cd4;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #123458;
+    color: #F1EFEC;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+    .profile img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 1em;
+    }
+    .profile img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .profile img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+}
+
+/*
+COLORES
+#F1EFEC
+#D4C9BE
+#123458
+#252525
+*/
